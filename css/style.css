@@ -75,6 +75,10 @@ main{
     padding: 5px 5px 5px 5px;
     border-radius: 100%;
 }
+.article__task div :hover:first-child,
+.article__task div :hover:last-child{
+    filter: invert(1);
+}
 .article__task div :last-child{
     background-color: #ffffff;
     padding: 5px 5px 5px 5px;
