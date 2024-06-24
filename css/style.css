@@ -44,14 +44,21 @@ main{
 .section__tasks {
     /* background-color: blue; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
-    height: 100vh;
+    height: 100%;
+}
+.info__tasks{
+    /* background-color: red; */
+    height: 75vh;
+    overflow-y: scroll;
 }
 .article__task {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
     background-color: #292929;
     width: 300px;
     height: 50px;
